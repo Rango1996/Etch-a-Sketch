@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Etch a Sketch</h1>
+        <h2> Got a Sketch you want to Etch? TRY IT BELOW! </h2>
+    </header>
+    <main>
+        <div class="flex-container">
+            <div class="title"><h3> ETCH A SKETCH NOWWWWWW</h3></div>
+            <div class="content">
+                <div class="board"></div>
+                    <div class="buttons">
+                        <button>Black</button>
+                        <button>White</button>
+                        <button>Random</button>
+                        <button>Reset</button>  
+                    </div>
+            </div>
+        </div>
+        <input type = "text" 
+        placeholder="Size of Board" 
+        value = "16" 
+        onchange="changeSize(this.value)"
+        />
+        <button>Set Size</button>
+    </main>
+    <footer>
+        <p> All rights reserved ETCH A SKETCH ®</p>
+    </footer>
+</body>
+<script src = "script.js"></script>
+</html>

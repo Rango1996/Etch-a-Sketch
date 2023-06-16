@@ -1,0 +1,36 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+text-align: center;
+background-color: #e63535;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    padding: 20px 0px;
+}
+
+main {
+    background-color: #e63535;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.board {
+    height: 500px;
+    width: 500px;
+    display:grid;
+}
+
+footer {
+    background-color: #e63535;
+    text-align: center;
+}
+
+
