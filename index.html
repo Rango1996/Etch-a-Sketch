@@ -18,20 +18,22 @@
             <div class="content">
                 <div class="board"></div>
                     <div class="buttons">
-                        <button onclick="changeColor('black')">Black</button>
-                        <button onclick="changeColor('white')">White</button>
-                        <button onclick="changeColor('grey')">Erasor</button>
-                        <button onclick="changeColor('random')">Random</button>
+                        <button class="black-btn" onclick="changeColor('black')">Black</button>
+                        <button class="white-btn" onclick="changeColor('white')">White</button>
+                        <button class="grey-btn" onclick="changeColor('grey')">Erasor</button>
+                        <button class="random-btn" onclick="changeColor('random')">Random</button>
                         <button onclick="resetBoard()">Reset</button>  
                     </div>
-            </div>
-        </div>
-        <input type = "text" 
+                    <div class="set-size">
+                            <input type = "text" 
         placeholder="Size of Board" 
         value = "16" 
         onchange="changeSize(this.value)"
         />
         <button>Set Size</button>
+    </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p> All rights reserved ETCH A SKETCH ®</p>
