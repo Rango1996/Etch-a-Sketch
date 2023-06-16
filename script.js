@@ -29,12 +29,22 @@ function changeSize(input) {
         }
 // color square function defined as background style of div that's created initially = color of button
 function colorSquare() {
-    this.style.backgroundColor=color;
+    if (color==='random') {
+            this.style.backgroundColor=`hsl(${Math.random() * 360}, 100%, 50%)`;
+    }
+    else {
+        this.style.backgroundColor=color;
+    }
     }
 
 function changeColor(choice) {
     color=choice;
 }
 
+function resetBoard(){
+    let board = document.querySelector(".board");
+    let squares = board.querySelectorAll("div");
+    squares.forEach((div)=> div.style.backgroundColor="grey");
+}
 
 populateBoard(16);

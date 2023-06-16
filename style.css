@@ -28,6 +28,11 @@ main h3 {
     display:grid;
 }
 
+.flex-container {
+    display:flex;
+    justify-content: center;
+}
+
 footer {
     background-color: #e63535;
     text-align: center;
